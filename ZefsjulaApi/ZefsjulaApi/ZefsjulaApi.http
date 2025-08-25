@@ -1,0 +1,6 @@
+@ZefsjulaApi_HostAddress = http://localhost:5162
+
+GET {{ZefsjulaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

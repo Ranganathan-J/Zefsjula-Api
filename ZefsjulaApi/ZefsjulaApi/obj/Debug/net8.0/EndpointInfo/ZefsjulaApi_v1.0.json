@@ -1,0 +1,10 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Zefsjula API",
+    "description": "API for managing company data with comprehensive analytics",
+    "version": "1.0"
+  },
+  "paths": { },
+  "components": { }
+}
