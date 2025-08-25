@@ -1,0 +1,24 @@
+
+    DATA CLEANING SUMMARY REPORT
+    ============================
+    
+    Original dataset: big_startup_secsees_dataset.csv
+    Cleaned dataset: cleaned_startup_data.csv
+    
+    Processing Steps:
+    1. Removed columns: ['region', 'permalink']
+    2. Filtered out 24 rows with blank funding data
+    3. Removed 2910 bank-related companies
+    4. Additional cleaning: Removed 0 rows with zero funding
+    
+    Results:
+    - Original rows: 66,368
+    - Final rows: 63,434
+    - Rows removed: 2,934
+    - Data reduction: 4.4%
+    
+    Final dataset contains:
+    - Companies with valid funding data
+    - Non-bank/financial services companies
+    - 12 columns: name, homepage_url, category_list, funding_total_usd, status, country_code, state_code, city, funding_rounds, founded_at, first_funding_at, last_funding_at
+    
